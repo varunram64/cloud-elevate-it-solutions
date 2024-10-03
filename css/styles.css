@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+.navBg{
+    background: #ebf8ff !important;
+}
+.bannerContainer{
+    min-height: 700px;
+    padding-top: 72px;
+    background: rgb(74,101,218);
+    background: -moz-linear-gradient(0deg, rgba(74,101,218,1) 0%, rgba(53,181,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(74,101,218,1) 0%, rgba(53,181,255,1) 100%);
+    background: linear-gradient(0deg, rgba(74,101,218,1) 0%, rgba(53,181,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4a65da",endColorstr="#35b5ff",GradientType=1);
+}
+.bannerTitle{
+    font-size: 72px;
+    color: #fff;
+}
+.bannerContent{
+    font-size: 46px;
+    color: #fff;
+}
+.btnKnowmore{
+    background: #3fa8ef url(../images/icon-forward-arrow.svg) no-repeat 15px center;
+    background-size: 24px auto;
+    padding: 10px 20px 10px 45px;
+    font-size:20px;
+    color: #1a1b56;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 20px 0 0;
+}
+.body-content{
+    background: url(../images/img-ourservices-bg.png) no-repeat;
+    background-size: 100% auto;
+    margin: -40px 0 0;
+}
+.ourServicesBlock{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.heading3{
+    background: #dcebfe;
+    padding: 10px 25px;
+    font-size:26px;
+    color: #1a1b56;
+    display: inline-block;
+    border-radius: 30px;
+}
+.heading4{
+    font-size: 30px;
+    color: #3d7dff;
+}
+.serviceItem{
+    padding: 30px;
+    background: #eef4fc;
+    color: #050648;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.serviceItem span{
+    width: 100%;
+    display: inline-block;
+    padding-top: 10px;
+}
+.whoWeAreBlock{
+    margin-top: 20px;
+    padding: 20px;
+    background: #e6f1ff url(../images/whoarewe-bg.png) no-repeat;
+    background-size: 100% auto;
+    border-radius: 20px;
+}
+.whoweareContent{
+    font-size: 18px;
+    color: #113172;
+    padding: 10px 0 0;
+}
+.whoweareLeft{
+    padding-left: 0;
+    padding-right: 20px;
+}
+.whyChooseUsBlock{
+    margin: 40px 0 0;
+    padding: 30px 0 100px;
+    background: url(../images/img-whychoose-bg.png) no-repeat;
+    background-size: cover;
+}
+.spnExp{
+    font-size: 16px;
+    background: #0163e2;
+    border-radius: 30px;color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    padding: 5px 20px;
+}
+.whyChooseUsBlock .heading4{
+    color: #0b245e;
+}
+.whyChooseUsBlock .heading3{
+    color: #0163e2;
+    background: transparent;
+    padding: 0;
+}
+ul.listItems{
+    margin: 30px 0 0;
+    padding: 0;
+}
+ul.listItems li{
+    color: #113172;
+    font-size: 18px;
+    list-style: none;
+    width: 50%;
+    float: left;
+    background: url(../images/icon-list-tickmark.png) no-repeat left top;
+    padding: 0 15px 15px 32px;
+}
+.footerBlock{
+    padding: 30px   ;
+    background: url(../images/img-footer-bg.png) no-repeat;
+    background-size: cover;
+}
+.footerInnerBlock{
+    padding: 30px;
+    background: rgba(0, 13, 92, 0.6);
+    border-radius: 30px;
+}
+.socialLinkBlock{
+    padding: 20px 0 0;
+    text-align: center;
+}
+.socialLink{
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px;
+}
+.footerContent{
+    font-size: 16px;
+    color: #61d0fe;
+}
+.footerBottomLinks{
+    padding: 30px 0 50px;
+    font-size: 18px;
+}
+.footerBottomLinks a{
+    color: #fff;
+}
+.footerBottomLinks a span{
+    padding: 0 0 0 10px;
+}
+.footerBottomLink{
+    text-decoration: none;
+    position: relative;
+    padding: 0 0 0 62px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    min-height: 52px;
+    word-break: break-all;
+}
+.footerBottomLink img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.contentContainer{
+    padding: 0;
+}
+.footerInnerBlock .row{
+    flex-direction: row-reverse;
+    margin: 0;
+}
+.aboutUsContainer{
+    padding: 50px 0;
+}
+.ourVisionContainer{
+    padding: 80px 0;
+}
+.ourVisionContainer{
+    color: rgb(103, 119, 136);
+    font-size: 15px;
+    line-height: 30px;
+}
+.ourVisionContainer h2{
+    color:rgb(30, 32, 34);
+}
+.ourVisionInner{
+    padding: 80px 0;
+}
+.bannerInnerContainer{
+    min-height: 240px;
+}
+.pageTitle{
+    color: #fff;
+    font-size: 32px;
+}
+.fs-xs {
+    font-size: 14px;
+    color: rgb(78, 85, 98);
+}
+.principlesContent {
+    color: rgb(103, 119, 136);
+    font-size: 15px;
+    line-height: 30px;
+}
+.form-label{
+    font-size: 14px;
+}
+.form-control{
+    font-size: 14px;
+}
+.contactCards .card {
+    border-color: rgba(0, 0, 0, 0.1);
+}  
+.contactCards .card .text-body{
+    color: #666276 !important;
+}
+.contactCards .card .h4{
+    color: #1f1b2d !important;
+    font-size: 1.25rem;
+}
+.icon-box-media{
+    width: 50px;
+    height: 50px;
+}
+.icon-box-media i{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.fi-mail{
+    background: url(../images/icon-email.svg) no-repeat center;
+    background-size: 24px auto;
+}
+.fi-device-mobile{
+    background: url(../images/icon-contact.svg) no-repeat center;
+    background-size: 24px auto;
+}
+.fi-instagram{
+    background: url(../images/icon-instagram.svg) no-repeat center;
+    background-size: 24px auto;
+}
+.contactCards .card-hover{
+    transition: border-color .2s ease-in-out, background-color .2s ease-in-out, box-shadow .2s ease-in-out !important;
+}
+.contactCards .card-hover:hover {
+    box-shadow: 0 .125rem .125rem -0.125rem rgba(31, 27, 45, .08), 0 .25rem .75rem rgba(31, 27, 45, .08);
+}
+
+.contactCards .card-hover:hover .icon-box-media{
+    background: #6aabff;
+}
+.contactSubmit{
+    background: #09B850;
+    border-color: #09B850;
+    font-size: 18px;
+    box-shadow: 0 .5rem 1.125rem -0.5rem #89f9b7 !important;
+}
+.contactSubmit:hover{
+    background: #089c44;
+    border-color: #089c44;
+}
+.getInTouch{
+    color: #0b0f19;
+}
+.servicesBlock .card{
+    background-color: rgb(248 250 251 / 50%) !important;
+    border: solid 1px #f3eeee !important;
+}
+.servicesBlock .card .card-title{
+    font-size: 20px;
+}
+.servicesBlock .card .card-text{
+    color: #646464;
+    font-size: 15px;
+    line-height: 26px;
+}
+.servicesBlock .card .card-footer{
+    background: transparent;
+}
+
+@media (max-width: 1150px) {
+.body-content{
+    padding: 0 0;
+}
+.contentContainer{
+    padding: 0 10px;
+}
+}
+
+@media (max-width: 1024px){
+.bannerTitle {
+    font-size: 50px;
+}
+.bannerContent{
+    font-size: 30px;
+}
+.bannerContainer{
+    min-height: 550px;
+}
+.bannerInnerContainer{
+    min-height: 200px;
+}
+.aboutUsContainer{
+    padding: 50px 10px;
+}
+}
+
+@media (max-width: 900px) {
+.ourServicesBlock .col-3{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.whoWeAreBlock .col-6,
+.whyChooseUsBlock .col-6{
+    width: 100%;
+    text-align: center;
+}
+.whoWeAreBlock{
+    margin-top: 0;
+}
+ul.listItems {
+    margin: 10px 0 0;
+}
+.footerBottomLinks .col-4{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.footerBottomLink img{
+    width: 32px;
+}
+.footerBottomLink{
+    min-height: 32px;
+    padding: 0 0 0 36px;
+}
+.footerBottomLinks{
+    font-size: 16px;
+}
+.footerBlock {
+    padding: 20px;
+    background: #00003e url(../images/img-footer-bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+.footerBlock .container{
+    padding: 0;
+}
+}
+
+@media (max-width: 767px){
+.navBarPosition{
+    position: absolute;
+    left: 0;
+    top: 76px;
+    width: 100%;
+    padding: 15px;
+    background: #ebf8ff;
+    box-shadow: 0 12px 10px #d2d2d2;
+}
+.bannerContent{
+    display: none;
+}
+.bannerContainer .col-6{
+    width: 100%;
+    text-align: center;
+}
+.bannerContainer{
+    padding-top: 100px;
+    min-height: inherit;
+    padding-bottom: 40px;
+}
+.bannerTitle {
+    font-size: 40px;
+    padding-bottom: 0;
+}
+.serviceItem{
+    font-size: 14px;
+    padding: 20px 15px;
+}
+.serviceItem img{
+    max-width: 80px;
+}
+.heading4 {
+    font-size: 24px;
+}
+.heading3{
+    font-size: 20px;
+}
+.ourServicesBlock {
+    padding: 40px 0;
+}
+.whoweareContent {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.whoweareLeft{
+    padding-right: 0;
+}
+ul.listItems li{
+    font-size: 14px;
+}
+.contentContainer{
+    padding: 0 5px;
+}
+.footerInnerBlock .col-5,
+.footerInnerBlock .col-7{
+    width: 100%;
+    text-align: center;
+}
+.footerInnerBlock{
+    padding: 20px;
+}
+.footerContent{
+    padding: 0 0 20px;
+}
+.btnKnowmore {
+    background: #3fa8ef url(../images/icon-forward-arrow.svg) no-repeat 15px center;
+    background-size: 18px auto;
+    padding: 8px 20px 8px 40px;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+.ourVisionInner {
+    padding: 40px 0;
+}
+.aboutUsContainer {
+    padding: 30px 5px;
+}
+}
+@media (max-width: 570px){
+.navbar-brand img{
+    max-width: 200px;
+}
+.navBarPosition{
+    top: 68px;
+}
+.bannerContainer{
+    padding-top: 110px;
+    padding-bottom: 50px;
+}
+.ourServicesBlock .col-3{
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+}
