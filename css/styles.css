@@ -335,6 +335,21 @@ ul.listItems li{
 .servicesBlock .card .card-footer{
     background: transparent;
 }
+.arrow-icon{
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ai-arrow-right{
+    width: 26px;
+    height: 26px;
+    background: url(../images/icon-forward-arrow-black.svg) no-repeat;
+    background-size: 26px auto;
+    display: inline-block;
+}
 
 @media (max-width: 1150px) {
 .body-content{
