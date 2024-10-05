@@ -293,10 +293,19 @@ ul.listItems li{
     background: url(../images/icon-contact.svg) no-repeat center;
     background-size: 24px auto;
 }
+.fi-facebook{
+    background: url(../images/icon-facebook.png) no-repeat center;
+    background-size: 24px auto;
+}
 .fi-instagram{
     background: url(../images/icon-instagram.svg) no-repeat center;
     background-size: 24px auto;
 }
+.fi-linkedin{
+    background: url(../images/icon-linkedi.png) no-repeat center;
+    background-size: 24px auto;
+}
+
 .contactCards .card-hover{
     transition: border-color .2s ease-in-out, background-color .2s ease-in-out, box-shadow .2s ease-in-out !important;
 }
