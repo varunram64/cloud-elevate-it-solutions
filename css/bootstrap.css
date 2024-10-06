@@ -8197,6 +8197,10 @@ textarea.form-control-lg {
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
 }
+.py-6 {
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
+}
 
 .py-3 {
   padding-top: 1rem !important;
@@ -8413,6 +8417,10 @@ textarea.form-control-lg {
 
 .fs-6 {
   font-size: 1rem !important;
+}
+
+.fs-7 {
+  font-size: 0.8rem !important;
 }
 
 .fst-italic {

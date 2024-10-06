@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 body{
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
 }
 a{
     text-decoration: none;
@@ -8,50 +8,53 @@ a{
 img{
     max-width: 100%;
 }
+.navbar-nav .nav-link.active{
+    font-weight: 600;
+}
 .poppins-thin {
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: 100;
     font-style: normal;
   }
   
   .poppins-light {
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: 300;
     font-style: normal;
   }
   
   .poppins-regular {
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
   
   .poppins-medium {
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: 500;
     font-style: normal;
   }
   
   .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
     font-style: normal;
   }
   
   .poppins-bold {
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: 700;
     font-style: normal;
   }
   
   .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: 800;
     font-style: normal;
   }
   
   .poppins-black {
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: 900;
     font-style: normal;
   }
@@ -73,7 +76,7 @@ img{
     color: #fff;
 }
 .bannerContent{
-    font-size: 46px;
+    font-size: 40px;
     color: #fff;
 }
 .btnKnowmore{
@@ -87,13 +90,18 @@ img{
     margin: 20px 0 0;
 }
 .body-content{
-    background: url(../images/img-ourservices-bg.png) no-repeat;
+    background: url(../images/img-body-bg.png) no-repeat;
     background-size: 100% auto;
     margin: -40px 0 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 .ourServicesBlock{
     padding-top: 80px;
     padding-bottom: 40px;
+}
+.serviceFeatureBlock{
+    padding: 40px 0;
 }
 .heading3{
     background: #dcebfe;
@@ -113,6 +121,7 @@ img{
     color: #050648;
     font-size: 18px;
     border-radius: 30px;
+    text-align: center;
 }
 .serviceItem span{
     width: 100%;
@@ -173,8 +182,10 @@ ul.listItems li{
 }
 .footerBlock{
     padding: 30px   ;
-    background: url(../images/img-footer-bg.png) no-repeat;
+    background:#000342 url(../images/img-footer-bg.png) no-repeat;
     background-size: cover;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 .footerInnerBlock{
     padding: 30px;
@@ -234,9 +245,18 @@ ul.listItems li{
     padding: 80px 0;
 }
 .ourVisionContainer{
+    background: url('../images/map.svg') no-repeat center;
+    background-size: 80%;
+}
+
+.ourVisionContainer,
+.serviceFeature{
     color: rgb(103, 119, 136);
     font-size: 15px;
     line-height: 30px;
+}
+.serviceFeature{
+    padding: 0;
 }
 .ourVisionContainer h2{
     color:rgb(30, 32, 34);
@@ -279,6 +299,7 @@ ul.listItems li{
 .icon-box-media{
     width: 50px;
     height: 50px;
+    margin-right: 8px;
 }
 .icon-box-media i{
     width: 100%;
@@ -314,7 +335,7 @@ ul.listItems li{
 }
 
 .contactCards .card-hover:hover .icon-box-media{
-    background: #6aabff;
+    background: #f5f5f5;
 }
 .contactSubmit{
     background: #09B850;
@@ -332,7 +353,17 @@ ul.listItems li{
 .servicesBlock .card{
     background-color: rgb(248 250 251 / 50%) !important;
     border: solid 1px #f3eeee !important;
+    transition: background-color .2s ease-in-out, border-color .2s ease-in-out, transform 0.3s ease-in-out, box-shadow .2s ease-in-out !important;
 }
+
+.card-hover-primary:hover{
+    background: #f8f8f8 !important;
+    border-color: #0163e2 !important;
+    box-shadow: 0 .125rem .125rem -0.125rem rgba(31, 27, 45, .08), 0 .25rem .75rem rgba(31, 27, 45, .08);
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+}
+
 .servicesBlock .card .card-title{
     font-size: 20px;
 }
@@ -343,6 +374,10 @@ ul.listItems li{
 }
 .servicesBlock .card .card-footer{
     background: transparent;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
 }
 .arrow-icon{
     width: 46px;
@@ -353,11 +388,58 @@ ul.listItems li{
     justify-content: center;
 }
 .ai-arrow-right{
-    width: 26px;
-    height: 26px;
+    width: 18px;
+    height: 18px;
     background: url(../images/icon-forward-arrow-black.svg) no-repeat;
-    background-size: 26px auto;
+    background-size: 18px auto;
     display: inline-block;
+    margin-left: 6px;
+    transition: transform 0.3s ease-in-out;
+}
+.iconServices{
+    width: 48px;
+    margin-bottom: 20px;
+}
+.card-hover-primary:hover .ai-arrow-right{
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+}
+.job-post {
+    transition: all 0.5s ease;
+}
+.job-post.job-post-list:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(30, 41, 59, 0.15) !important;
+}
+.iconExp{
+    width: 20px;
+}
+.w-32{
+    width: 50px;
+}
+.logBlock{
+    padding: 0;
+}
+.visionParent{
+    position: relative;
+    overflow: hidden;
+    margin: 50px 0 0;
+}
+.section-inner {
+    position: absolute;
+    top: 0;
+    right: -40px;
+    height: 100%;
+    z-index: -2;
+    background-color: #008aff;
+}
+@media (max-width: 1199px) {
+.logBlock{
+    padding: 0 16px;
+}
+.pageTitle{
+    padding: 0 16px;
+}
 }
 
 @media (max-width: 1150px) {
@@ -456,6 +538,7 @@ ul.listItems {
 .serviceItem{
     font-size: 14px;
     padding: 20px 15px;
+    text-align: center;
 }
 .serviceItem img{
     max-width: 80px;
@@ -506,8 +589,15 @@ ul.listItems li{
 .aboutUsContainer {
     padding: 30px 5px;
 }
+.contactCardBody{
+    padding: 0 !important;
+    margin: 0 !important;
 }
-@media (max-width: 570px){
+.contactCards .col-md-4{
+    padding: 0;
+}
+}
+@media (max-width: 575px){
 .navbar-brand img{
     max-width: 200px;
 }
@@ -521,5 +611,8 @@ ul.listItems li{
 .ourServicesBlock .col-3{
     padding: 0 5px;
     margin-bottom: 10px;
+}
+.servicesBlock .col{
+    padding: 0;
 }
 }

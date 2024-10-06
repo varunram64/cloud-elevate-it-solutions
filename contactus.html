@@ -13,7 +13,7 @@
     <header>
         <nav class="navbar navbar-expand-md navBg shadow fixed-top">
             <div class="container px-0">
-                <div class="d-flex w-100 justify-content-between px-3">
+                <div class="d-flex w-100 justify-content-between logBlock">
               <a class="navbar-brand" href="index.html"><img src="images/cloudElevate-logo.png" alt="Cloud Elevate" /></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,16 +24,16 @@
                     <a class="nav-link " aria-current="page" href="index.html"><span>Home</span></a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link active" href="aboutus.html"><span>About Us</span></a>
+                    <a class="nav-link " href="aboutus.html"><span>About Us</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="services.html"><span>Services</span></a>
                   </li>
                   <li class="nav-item"></li>
-                    <a class="nav-link" href="#"><span>Blog</span></a>
+                    <a class="nav-link" href="careers.html"><span>Careers</span></a>
                   </li>
                   <li class="nav-item"></li>
-                    <a class="nav-link" href="contactus.html"><span>Contact Us</span></a>
+                    <a class="nav-link active" href="contactus.html"><span>Contact Us</span></a>
                   </li>
                 </ul>
             </div>
@@ -46,7 +46,7 @@
         <div class="container">
             <div class="row m-0">
                 <div class="col-6">
-                    <h2 class="pageTitle">Get in touch</h2>
+                    <h2 class="pageTitle">Contact Us</h2>
                     </div>
             </div>
         </div>
@@ -60,11 +60,16 @@
                   
                   <div class="col-md-6 px-0">
                     <div class="card border-0 bg-transparent p-0">
-                      <div class="card-body m-1 p-1">
+                      <div class="card-body m-1 p-1 contactCardBody">
                         <form class="needs-validation" novalidate="">
                           <div class="mb-4">
                             <label class="form-label" for="c-name">Full Name</label>
                             <input class="form-control form-control-lg" id="c-name" type="text" required="">
+                            <div class="invalid-tooltip mt-1">Please, enter your name</div>
+                          </div>
+                          <div class="mb-4">
+                            <label class="form-label" for="c-mobile">Mobile</label>
+                            <input class="form-control form-control-lg" id="c-mobile" type="text" required="">
                             <div class="invalid-tooltip mt-1">Please, enter your name</div>
                           </div>
                           <div class="mb-4">
@@ -112,17 +117,17 @@
                       </div></a></div>
                   <!-- Item-->
                   <div class="col-md-4">
-                    <a class="icon-box card card-hover h-100" href="javascript:void(0)">
+                    <div class="icon-box card card-hover h-100" >
                       <div class="card-body">
                         <div class="d-flex">
-                          <div class="icon-box-media text-body rounded-circle shadow-sm mb-3"><i class="fi-facebook"></i></div>
-                          <div class="icon-box-media text-body rounded-circle shadow-sm mb-3"><i class="fi-instagram"></i></div>
-                          <div class="icon-box-media text-body rounded-circle shadow-sm mb-3"><i class="fi-linkedin"></i></div>
+                          <a href="https://www.facebook.com/profile.php?id=61565175017165" target="_blank" class="icon-box-media text-body rounded-circle shadow-sm mb-3"><i class="fi-facebook"></i></a>
+                          <a href="https://www.instagram.com/cloud_elevate" target="_blank" class="icon-box-media text-body rounded-circle shadow-sm mb-3"><i class="fi-instagram"></i></a>
+                          <a href="https://www.linkedin.com/in/cloud-elevate" target="_blank" class="icon-box-media text-body rounded-circle shadow-sm mb-3"><i class="fi-linkedin"></i></a>                          
                         </div>
                         <span class="d-block mb-1 text-body">Follow us</span>
                         <h3 class="h4 icon-box-title mb-0 opacity-90">@cloud_elevate</h3>
                       </div>
-                    </a>
+                    </div>
                   </div>
                 </div>
               </section>
@@ -140,13 +145,13 @@
                 <div class="col-5">
                     <img src="./images/cloudElevate-footer-logo.png" alt="cloud elevate" />
                     <div class="col-12 socialLinkBlock">
-                        <a href="https://www.facebook.com/profile.php?id=61565175017165" class="socialLink">
+                        <a href="https://www.facebook.com/profile.php?id=61565175017165" target="_blank" class="socialLink">
                             <img src="images/icon-facebook.png" alt="cloud elevate facebook" />
                         </a>
-                        <a href="https://www.linkedin.com/in/cloud-elevate" class="socialLink">
+                        <a href="https://www.linkedin.com/in/cloud-elevate" target="_blank" class="socialLink">
                             <img src="images/icon-linkedi.png" alt="cloud elevate linkedin" />
                         </a>
-                        <a href="https://www.instagram.com/cloud_elevate" class="socialLink">
+                        <a href="https://www.instagram.com/cloud_elevate" target="_blank" class="socialLink">
                             <img src="images/icon-instagram.png" alt="cloud elevate instagram" />
                         </a>
                     </div>
