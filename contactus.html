@@ -42,96 +42,104 @@
           </nav>
     </header>
 
-    <div class="col-12 bannerContainer bannerInnerContainer d-flex justify-content-center align-items-center">
-        <div class="container">
-            <div class="row m-0">
-                <div class="col-6">
-                    <h2 class="pageTitle">Contact Us</h2>
-                    </div>
-            </div>
+    <div class="col-12 bannerInnerBlock">
+      <section class="container bannerInner">
+        <div class="col-6">
+          <h2 class="pageTitle">Contact Us
+            <small>Get in touch with us</small>
+          </h2>            
         </div>
-    </div>
+      </section>
+  </div>
 
     <div class="col-12 body-content">
         <div class="col-12 contactUsContainer px-3">
-            
-            <section class="container mb-5 pb-2 px-0">
-                <div class="row align-items-md-start align-items-center gy-4 m-0 pt-3">
+
+          <section class="container mb-5 pb-2 px-0">
+            <div class="row align-items-md-start align-items-center gy-4 m-0 pt-3">
+              <div class="col-12 col-md-7">
+                <div class="card border-0 contactCard">
+                  <div class="card-body m-1 p-1 contactCardBody">
+                    <form class="needs-validation" novalidate="">
+                      <div class="row">
+                      <div class="mb-4 col-6">
+                        <input class="form-control " id="c-name" type="text" required="" placeholder="Name">
+                        <div class="invalid-tooltip mt-1">Please, enter your name</div>
+                      </div>
+                      <div class="mb-4 col-6">
+                        <input class="form-control " id="c-mobile" type="text" required="" placeholder="Mobile">
+                        <div class="invalid-tooltip mt-1">Please, enter your name</div>
+                      </div>
+                    </div>
+                      <div class="mb-4">
+                        <input class="form-control " id="c-email" type="email" required="" placeholder="Email">
+                        <div class="invalid-tooltip mt-1">Please, enter your email</div>
+                      </div>
+                      <div class="mb-4">
+                        <textarea class="form-control " id="c-message" rows="4" placeholder="Leave your message" required=""></textarea>
+                        <div class="invalid-tooltip mt-1">Please, type your message</div>
+                      </div>
+                      <div class="pt-sm-2 pt-1">
+                        <button class="btn btn-lg btn-primary w-sm-auto w-100 contactSubmit" type="submit">Submit form</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-5">
+                <div class="contactAdressBlock">
                   
-                  <div class="col-md-6 px-0">
-                    <div class="card border-0 bg-transparent p-0">
-                      <div class="card-body m-1 p-1 contactCardBody">
-                        <form class="needs-validation" novalidate="">
-                          <div class="mb-4">
-                            <label class="form-label" for="c-name">Full Name</label>
-                            <input class="form-control form-control-lg" id="c-name" type="text" required="">
-                            <div class="invalid-tooltip mt-1">Please, enter your name</div>
-                          </div>
-                          <div class="mb-4">
-                            <label class="form-label" for="c-mobile">Mobile</label>
-                            <input class="form-control form-control-lg" id="c-mobile" type="text" required="">
-                            <div class="invalid-tooltip mt-1">Please, enter your name</div>
-                          </div>
-                          <div class="mb-4">
-                            <label class="form-label" for="c-email">Your Email</label>
-                            <input class="form-control form-control-lg" id="c-email" type="email" required="">
-                            <div class="invalid-tooltip mt-1">Please, enter your email</div>
-                          </div>
-                          <div class="mb-4">
-                            <label class="form-label" for="c-message">Message</label>
-                            <textarea class="form-control form-control-lg" id="c-message" rows="4" placeholder="Leave your message" required=""></textarea>
-                            <div class="invalid-tooltip mt-1">Please, type your message</div>
-                          </div>
-                          <div class="pt-sm-2 pt-1">
-                            <button class="btn btn-lg btn-primary w-sm-auto w-100 contactSubmit" type="submit">Submit form</button>
-                          </div>
-                        </form>
-                      </div>
+                  <div class="icon-item wow fadeInUp">
+                    <div class="icon">
+                      <i class="email fa-envelope"></i>
+                    </div>
+                    <div class="content">
+                      <p>Drop a line</p>
+                      <h4> recruiter@cloudelevateitsolutions.com </h4>
                     </div>
                   </div>
-                  <div class="col-12 col-md-6 ps-5">
-                    <div class="mx-md-0 mx-auto mb-md-5 mb-4 pb-md-4 text-md-start text-center pt-4" style="max-width: 416px;">
-                        <h3 class="mb-3 getInTouch poppins-medium">Address</h3>
-                        <address class="mb-0 fs-lg text-muted">
-                            123 Main Street SW<br>
-                            Los Angeles, CA 90011<br>
-                        </address>
-                    </div>
-                  </div>
-                </div>
-              </section>
 
-              <section class="container mb-5 pb-2 pb-md-4 pb-lg-5 contactCards">
-                <div class="row g-4">
-                  <!-- Item-->
-                  <div class="col-md-4"><a class="icon-box card card-hover h-100" href="javascript:void(0)">
-                      <div class="card-body">
-                        <div class="icon-box-media text-body rounded-circle shadow-sm mb-3"><i class="fi-mail"></i></div><span class="d-block mb-1 text-body">Drop us a line</span>
-                        <h3 class="h4 icon-box-title mb-0 opacity-90">recruiter@cloudelevateitsolutions.com</h3>
-                      </div></a></div>
-                  <!-- Item-->
-                  <div class="col-md-4"><a class="icon-box card card-hover h-100" href="javascript:void(0)">
-                      <div class="card-body">
-                        <div class="icon-box-media text-body rounded-circle shadow-sm mb-3"><i class="fi-device-mobile"></i></div><span class="d-block mb-1 text-body">Call us any time</span>
-                        <h3 class="h4 icon-box-title mb-0 opacity-90">+91 9177 543 330</h3>
-                      </div></a></div>
-                  <!-- Item-->
-                  <div class="col-md-4">
-                    <div class="icon-box card card-hover h-100" >
-                      <div class="card-body">
-                        <div class="d-flex">
-                          <a href="https://www.facebook.com/profile.php?id=61565175017165" target="_blank" class="icon-box-media text-body rounded-circle shadow-sm mb-3"><i class="fi-facebook"></i></a>
-                          <a href="https://www.instagram.com/cloud_elevate" target="_blank" class="icon-box-media text-body rounded-circle shadow-sm mb-3"><i class="fi-instagram"></i></a>
-                          <a href="https://www.linkedin.com/in/cloud-elevate" target="_blank" class="icon-box-media text-body rounded-circle shadow-sm mb-3"><i class="fi-linkedin"></i></a>                          
-                        </div>
-                        <span class="d-block mb-1 text-body">Follow us</span>
-                        <h3 class="h4 icon-box-title mb-0 opacity-90">@cloud_elevate</h3>
-                      </div>
+                  <div class="icon-item wow fadeInUp">
+                    <div class="icon greenIcon">
+                      <i class=" fa-envelope"></i>
+                    </div>
+                    <div class="content">
+                      <p>Address</p>
+                      <h4> <address class="mb-0 fs-lg text-muted">
+                        123 Main Street SW<br>
+                        Los Angeles, CA 90011<br>
+                    </address> </h4>
                     </div>
                   </div>
-                </div>
-              </section>
 
+                  <div class="icon-item wow fadeInUp">
+                    <div class="icon blueIcon">
+                      <i class=" fa-envelope"></i>
+                    </div>
+                    <div class="content">
+                      <p>Call us</p>
+                      <h4> +91 9177 543 330</h4>
+                    </div>
+                  </div>
+
+                  <div class="icon-item wow fadeInUp">
+                    <div class="icon yellowIcon">
+                      <i class=" fa-envelope"></i>
+                    </div>
+                    <div class="content">
+                      <p>Find us on social media</p>
+                      <h4> @cloud_elevate </h4>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </section>
+            
+           
         </div>
 
 
